@@ -1,0 +1,928 @@
+html, body {
+   height: 100%;
+   margin: 0px 0px 0px 0px;
+   min-height: 100%;
+   padding: 0px 0px 0px 0px;
+   width: 100%;
+}
+
+.content{
+
+   	width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+strong {
+  font-size: 32pt;
+  line-height: 120%;
+  text-decoration: underline;
+  margin-bottom: 30pt;
+}
+
+.archive, .archive2 {
+  font-family: 'TexGyreHeros';
+  font-size: 14pt;
+  text-align: left;
+  line-height: 110%;
+}
+
+.archive>h3, .archive2>h3 {
+  font-weight: normal;
+  font-family: 'TexGyreHerosBold';
+  font-size: 14pt;
+  text-decoration: underline;
+  margin-top: 20pt;
+}
+
+#select {
+  text-decoration: underline;
+}
+
+.rumeur {
+  background-color: white;
+}
+
+.menu {
+  background-color: white;
+  font-family: 'TexGyreHeros';
+}
+
+
+
+.title1 {
+  font-family: 'Bagnard';
+  font-size: 52pt;
+  text-align: center;
+  margin-top: 25pt;
+  margin-bottom: 30pt;
+  line-height: 110%;
+}
+
+.title2 {
+  font-family: 'ArvoBold';
+  font-size: 50pt;
+  text-align: center;
+  line-height: 115%;
+}
+
+.title3 {
+  font-family: 'RobotoCondensedBold';
+  font-size: 50pt;
+  text-align: center;
+  line-height: 110%;
+}
+
+.title {
+	display: inline-block;
+}
+
+span {
+  font-family: 'TexGyreHeros';
+  color: silver;
+}
+
+
+.facebook {
+  font-family: 'TexGyreHeros';
+  font-size: 14pt;
+  line-height: 112%;
+  padding: 20pt;
+}
+
+.twitter {
+  line-height: 112%;
+  padding: 20pt;
+  font-family: 'TexGyreHeros';
+  font-size: 14pt;
+}
+
+.articles  {
+  line-height: 113%;
+  font-family: 'TexGyreHerosBold';
+  font-size: 18pt;
+  padding: 20pt;
+}
+
+.date, .tags {
+  line-height: 113%;
+  font-family: 'TexGyreHeros';
+  border: 2pt solid black;
+  padding: 20pt;
+  font-size: 18pt;
+  display: inline-block;
+  margin-left: 15%;
+}
+
+.resume {
+  line-height: 113%;
+  font-family: 'TexGyreHeros';
+  padding: 20pt;
+  font-size: 20pt;
+  margin-bottom: 50pt;
+  margin-top: 70pt;
+}
+
+.appel {
+  font-family: 'TexGyreHeros';
+  font-size: 18pt;
+  margin-top: 30pt;
+}
+
+.art, .fb, .tw, .mp {
+  display: inline-block;
+  margin: 15pt;
+  text-decoration: underline;
+}
+
+.time {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.mep {
+  line-height: 113%;
+  font-family: 'TexGyreHeros';
+  text-decoration: none;
+  font-size: 14pt;
+}
+
+  #art:target,
+  #fb:target,
+  #tw:target,
+  #mp:target {
+    display: block;
+  }
+
+.name {
+  color: black;
+  font-family: 'TexGyreHerosBold';
+}
+
+
+@media screen and (min-width: 1251px) {
+  /*.resume {
+    width: 4%;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 25%;
+    margin-right: 25%;
+  }*/
+
+.archive {
+  margin-left: 13%;
+  width:25%;
+  display: inline-block;
+}
+
+.archive2 {
+  margin-left: 100pt;
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+  .date {
+     width: 10%;
+     vertical-align: top;
+     margin-left: 18%;
+     margin-bottom: 5pt;
+  }
+
+  .index {
+    font-size: 24pt;
+    margin-left: 13%;
+  }
+
+  .tags {
+     width: 45%;
+     vertical-align: top;
+     margin-left: 10pt;
+     margin-bottom: 5pt;
+  }
+
+  .resume {
+     width: 50%;
+     vertical-align: top;
+     margin-left: 22%;
+     margin-bottom: 0pt;
+     margin-top: 30pt;
+     display: none;
+  }
+
+
+
+
+   .articles {
+      width: 50%;
+      vertical-align: top;
+      margin-left: 28%;
+      margin-bottom: 15pt;
+      font-size: 20pt;
+      padding: 10pt;
+      display: none;
+   }
+
+   .facebook {
+      width: 30%;
+      vertical-align: top;
+      margin-left: 35%;
+      padding: 10pt;
+      margin-bottom: 15pt;
+      display: none
+   }
+
+   /*.posts {
+      width: 45%;
+      vertical-align: top;
+      display: inline-block;
+      padding: 10pt;
+   }*/
+
+   .twitter {
+      width: 15%;
+      vertical-align: top;
+      margin-left: 40%;
+      margin-bottom: 15pt;
+      display: none;
+   }
+
+   .mep {
+    width: 20%;
+    margin-left: 38%;
+    margin-top: 20pt;
+    vertical-align: top;
+    margin-bottom: 30pt;
+    display: none;
+   }
+
+   .entete, .sous-titre, .sous-texte {
+    display: none;
+   }
+
+   /*.tweets {
+      width: 21%;
+      vertical-align: top;
+      margin-bottom: 15pt;
+      display: inline-block;
+      padding: 10pt;
+   }*/
+   #nope {
+    display: none;
+   }
+
+   .texte {
+    display: none;
+   }
+
+   .title {
+      width: 53%;
+      margin-left: 23%;
+      margin-right: 20%;
+      margin-top: 40pt;
+      margin-bottom: 50pt;
+   }
+
+   .appel {
+    margin-left: 26%;
+    display: inline-block;
+   }
+
+   .mep>h3, .articles>h3, .facebook>h3, .twitter>h3 {
+     display: none;
+   }
+}
+
+@media screen and (max-width: 1250px) {
+  .date, .tags {
+    width: 40%;
+    vertical-align: top;
+    margin-left: 27%;
+    margin-bottom: 5pt;
+    font-size:16pt;
+  }
+
+  .archive {
+  margin-left: 15%;
+  width:40%;
+  display: inline-block;
+}
+
+.archive2 {
+  margin-left: 50pt;
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+  .resume {
+    width: 70%;
+    vertical-align: top;
+    margin-left: 15%;
+    padding: 0pt;
+    display: none;
+  }
+
+  .index {
+    font-size: 20pt;
+    width: 65%;
+    margin-left: 13%;
+  }
+
+   .facebook {
+      width: 70%;
+      vertical-align: top;
+      margin-left: 15%;
+      margin-bottom: 15pt;
+      display: inline-block;
+      padding: 0px;
+   }
+
+   .twitter {
+      width: 70%;
+      vertical-align: top;
+      margin-left: 15%;
+      margin-bottom: 15pt;
+      display: inline-block;
+      padding: 0px;
+   }
+
+     .mep {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 50pt;
+    display: inline-block;
+    padding: 0px;
+    vertical-align: top;
+  }
+
+   .articles {
+      width: 70%;
+      vertical-align: top;
+      margin-top: 20pt;
+      margin-left: 15%;
+      margin-bottom: 15pt;
+      padding: 0pt;
+      display: inline-block;
+   }
+
+   .title {
+      width: 70%;
+      margin-left: 15%;
+      margin-top: 40pt;
+      margin-bottom: 50pt;
+      font-size: 42pt;
+      text-align: center;
+   }
+
+   .entete, .sous-titre, .sous-texte {
+    display: none;
+   }
+
+   #nope {
+    display: none;
+   }
+
+
+   .texte {
+    display: none;
+   }
+
+   .appel {
+    display: none;
+    margin-left: 10%;
+    font-size: 15pt;
+   }
+
+  .mep>h3, .articles>h3, .facebook>h3, .twitter>h3 {
+  text-align: center;
+  font-size: 18pt;
+  font-family: 'TexGyreHeros';
+  font-style: normal;
+  padding: 10pt;
+
+  line-height: 115%;
+}
+}
+
+@media screen and (max-width: 700px) {
+   .mep, .articles, .facebook, .twitter {
+      display: none;
+      height: auto;
+      min-height: auto;
+      vertical-align: top;
+      width: 80%;
+      font-size: 13pt;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-bottom: 5pt;
+      padding: 10pt;
+   }
+
+   .entete {
+    display: inline-block;
+    width: 91%;
+    height: 20pt;
+    text-align: left;
+    font-family: 'TexGyreHeros';
+    padding: 10pt;
+    font-size: 16pt;
+    text-decoration: underline;
+   }
+
+   .sous-entete {
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+    margin-bottom: 50pt;
+    font-family: 'TexGyreHeros';
+    font-size: 16pt;
+    font-weight: normal;
+    line-height: 110%;
+   }
+
+   .sous-titre {
+    display: inline-block;
+    font-family: 'TexGyreHerosBold';
+    margin-left: 5%;
+    margin-top: 70pt;
+   }
+
+   .texte {
+    font-family: 'TexGyreHeros';
+    font-size: 10pt;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 15pt;
+    display: inline-block;
+    line-height: 110%;
+      }
+
+   .sous-texte {
+    font-family: 'TexGyreHeros';
+    font-size: 10pt;
+    margin-left: 12%;
+    margin-right: 10%;
+    margin-top: 5pt;
+    display: inline-block;
+    line-height: 110%;
+   }
+
+   strong {
+    font-size: 10pt;
+   }
+
+   .resume {
+      min-height: auto;
+      display: none;
+      height: auto;
+      vertical-align: top;
+      width: 80%;
+      font-size: 13pt;
+      margin-top:20pt;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-bottom: 5pt;
+      padding: 10pt;
+   }
+
+   .date, .tags {
+      display: inline-block;
+      height: auto;
+      min-height: auto;
+      vertical-align: top;
+      width: 45%;
+      font-size: 10pt;
+      margin-left: 5%;
+      margin-bottom: 5pt;
+      padding: 10pt;
+   }
+
+   strong {
+     font-size: 17pt;
+   }
+
+   .menu {
+     display: none;
+   }
+
+   .appel {
+    display: none;
+   }
+
+   #nope {
+    display: inline-block;
+   }
+
+   .title{
+     width: 80%;
+     margin: 5%;
+     font-size: 22pt;
+     text-align: left;
+     line-height: 100%;
+   }
+
+   .content {
+    margin-bottom: 20pt;
+   }
+ }
+
+.mep>h3, .articles>h3, .facebook>h3, .twitter>h3 {
+  text-align: center;
+  font-size: 18pt;
+  font-family: 'TexGyreHeros';
+  font-style: normal;
+  padding: 10pt;
+}
+
+.titre {
+   display: inline-block;
+   padding: 15px;
+}
+
+.fake, .post, .reinfo, .archives, .contact, .apropos {
+   display: inline-block;
+   padding: 15px;
+   vertical-align: top;
+   font-family: 'TexGyreHeros';
+}
+
+
+@media screen and (min-width: 1251px) {
+   .titre {
+      width: 10%;
+   }
+   .fake, .post, .reinfo {
+      width: 58%;
+   }
+
+   .archives {
+    text-align: right;
+    width: 7%;
+   }
+
+   .contact {
+    text-align: right;
+    width: 7%;
+   }
+
+   .apropos {
+    text-align: right;
+    width: 7%;
+   }
+}
+
+@media screen and (max-width: 1250px) {
+  .titre {
+     width: 10%;
+     font-size: 12pt;
+  }
+  .fake, .post, .reinfo {
+     width: 46%;
+     font-size: 12pt;
+  }
+  .archives {
+    text-align: right;
+    width: 7%;
+    font-size: 12pt;
+   }
+   .contact {
+    text-align: right;
+    width: 7%;
+    font-size: 12pt;
+   }
+   .apropos {
+    text-align: right;
+    width: 7%;
+    font-size: 12pt;
+   }
+}
+
+@media screen and (max-width: 700px) {
+   .titre, .fake, .post, .reinfo {
+      width: 55%;
+      font-size: 10pt;
+      padding: 5pt;
+   }
+ }
+
+.index {
+   	display: inline-block;
+   	padding: 15px;
+    font-family: 'TexGyreHeros';
+    line-height: 115%;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+   }
+
+   .index>p {
+     -webkit-margin-before: 0px;
+     -webkit-margin-after: 0px;
+     -webkit-margin-start: 0px;
+     -webkit-margin-end: 0px;
+   }
+
+.index>h2, .index>h3 {
+    font-family: 'TexGyreHeros';
+    font-size: 18pt;
+    text-decoration: underline;
+    text-indent: 20pt;
+    margin-top: 10pt;
+}
+
+  .index p + p {
+    text-indent: 20pt;
+    margin: 0px;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+  }
+
+  .nom {
+    font-family: 'SourceSerifProRegular';
+    font-size: 14pt;
+    padding: 15px;
+  }
+
+
+
+  @media screen and (min-width: 1251px) {
+
+      .index {
+        width: 60%;
+        margin-left: 12%;
+        vertical-align: top;
+        padding: 15px;
+      }
+      .scan {
+        width: 100%;
+        margin-left: 0%;
+        margin-bottom: 10pt;
+      }
+      .img {
+        width: 70%;
+        margin-left: 5%;
+        margin-bottom: 10pt;
+      }
+      .nom {
+        width: 15%;
+      }
+   }
+
+   @media screen and (max-width: 1250px) {
+      .index {
+        width: 60%;
+        margin-left: 13%;
+        margin-right: 10%;
+        font-size: 16pt;
+      }
+      .scan {
+        width: 100%;
+        margin-left: 0%;
+        margin-bottom: 10pt;
+      }
+      .img {
+        width: 70%;
+        margin-left: 5%;
+        margin-bottom: 10pt;
+      }
+      .nom {
+        width: 30%;
+      }
+   }
+
+   @media screen and (max-width: 700px) {
+      .index {
+        width: 85%;
+        display: none;
+      }
+      .scan {
+        width: 100%;
+        margin-left: 0%;
+        margin-bottom: 10pt;
+      }
+      .img {
+        width: 80%;
+        margin-left: 5%;
+        margin-bottom: 10pt;
+      }
+      .nom {
+        width: 60%;
+      }
+    }
+
+    @font-face{
+        font-family : "ArvoBold";
+        src : url('font/arvo-bold-webfont.woff') format('woff'),
+              url('font/arvo-bold-webfont.woff2') format('woff2'),
+              url('font/arvo-bold-webfont.svg') format('svg'),
+              url('font/arvo-bold-webfont.eot') format('eot'),
+              url('font/Arvo-Bold.ttf') format('truetype');
+    }
+
+    @font-face{
+        font-family : "Bagnard";
+        src : url('font/bagnard-webfont.woff') format('woff'),
+              url('font/bagnard-webfont.woff2') format('woff2'),
+              url('font/bagnard-webfont.svg') format('svg'),
+              url('font/bagnard-webfont.eot') format('eot'),
+              url('font/Bagnard.otf') format('truetype');
+    }
+
+    @font-face{
+        font-family : "NimbusSanLBold";
+        src : url('font/nimbussanl-bol-webfont.woff') format('woff'),
+              url('font/nimbussanl-bol-webfont.woff2') format('woff2'),
+              url('font/nimbussanl-bol-webfont.svg') format('svg'),
+              url('font/nimbussanl-bol-webfont.eot') format('eot'),
+              url('font/nimbussanl-bol.ttf') format('truetype');
+    }
+
+    @font-face{
+        font-family : "NimbusSanLBoldItalic";
+        src : url('font/nimbussanl-bolita-webfont.woff') format('woff'),
+              url('font/nimbussanl-bolita-webfont.woff2') format('woff2'),
+              url('font/nimbussanl-bolita-webfont.svg') format('svg'),
+              url('font/nimbussanl-bolita-webfont.eot') format('eot'),
+              url('font/nimbussanl-bolita.ttf') format('truetype');
+    }
+
+    @font-face{
+        font-family : "NimbusSanL";
+        src : url('font/nimbussanl-reg-webfont.woff') format('woff'),
+              url('font/nimbussanl-reg-webfont.woff2') format('woff2'),
+              url('font/nimbussanl-reg-webfont.svg') format('svg'),
+              url('font/nimbussanl-reg-webfont.eot') format('eot'),
+              url('font/nimbussanl-reg.ttf') format('truetype');
+    }
+
+    @font-face{
+        font-family : "NimbusSanLItalic";
+        src : url('font/nimbussanl-regita-webfont.woff') format('woff'),
+              url('font/nimbussanl-regita-webfont.woff2') format('woff2'),
+              url('font/nimbussanl-regita-webfont.svg') format('svg'),
+              url('font/nimbussanl-regita-webfont.eot') format('eot'),
+              url('font/nimbussanl-regita.ttf') format('truetype');
+    }
+
+    @font-face{
+        font-family : "RobotoCondensedBold";
+        src : url('font/robotocondensed-bold-webfont.woff') format('woff'),
+              url('font/robotocondensed-bold-webfont.woff2') format('woff2'),
+              url('font/robotocondensed-bold-webfont.svg') format('svg'),
+              url('font/robotocondensed-bold-webfont.eot') format('eot'),
+              url('font/Robotocondensed-Bold.ttf') format('truetype');
+    }
+
+    @font-face{
+        font-family : "RobotoBold";
+        src : url('font/roboto-bold-webfont.woff') format('woff'),
+              url('font/roboto-bold-webfont.woff2') format('woff2'),
+              url('font/roboto-bold-webfont.svg') format('svg'),
+              url('font/roboto-bold-webfont.eot') format('eot'),
+              url('font/roboto-bold.ttf') format('truetype');
+    }
+
+    @font-face{
+        font-family : "RobotoBoldItalic";
+        src : url('font/roboto-bolditalic-webfont.woff') format('woff'),
+              url('font/roboto-bolditalic-webfont.woff2') format('woff2'),
+              url('font/roboto-bolditalic-webfont.svg') format('svg'),
+              url('font/roboto-bolditalic-webfont.eot') format('eot'),
+              url('font/roboto-bolditalic.ttf') format('truetype');
+    }
+
+    @font-face{
+        font-family : "RobotoItalic";
+        src : url('font/roboto-italic-webfont.woff') format('woff'),
+              url('font/roboto-italic-webfont.woff2') format('woff2'),
+              url('font/roboto-italic-webfont.svg') format('svg'),
+              url('font/roboto-italic-webfont.eot') format('eot'),
+              url('font/roboto-italic.ttf') format('truetype');
+    }
+
+    @font-face{
+        font-family : "RobotoMedium";
+        src : url('font/roboto-medium-webfont.woff') format('woff'),
+              url('font/roboto-medium-webfont.woff2') format('woff2'),
+              url('font/roboto-medium-webfont.svg') format('svg'),
+              url('font/roboto-medium-webfont.eot') format('eot'),
+              url('font/roboto-medium.ttf') format('truetype');
+    }
+
+    @font-face{
+        font-family : "RobotoMediumItalic";
+        src : url('font/roboto-mediumitalic-webfont.woff') format('woff'),
+              url('font/roboto-mediumitalic-webfont.woff2') format('woff2'),
+              url('font/roboto-mediumitalic-webfont.svg') format('svg'),
+              url('font/roboto-mediumitalic-webfont.eot') format('eot'),
+              url('font/roboto-mediumitalic.ttf') format('truetype');
+    }
+
+    @font-face{
+        font-family : "Roboto";
+        src : url('font/roboto-regular-webfont.woff') format('woff'),
+              url('font/roboto-regular-webfont.woff2') format('woff2'),
+              url('font/roboto-regular-webfont.svg') format('svg'),
+              url('font/roboto-regular-webfont.eot') format('eot'),
+              url('font/roboto-regular.ttf') format('truetype');
+    }
+
+    @font-face{
+        font-family : "SourceSerifProBold";
+        src : url('font/sourceserifpro-bold-webfont.woff') format('woff'),
+              url('font/sourceserifpro-bold-webfont.woff2') format('woff2'),
+              url('font/sourceserifpro-bold-webfont.svg') format('svg'),
+              url('font/sourceserifpro-bold-webfont.eot') format('eot'),
+              url('font/SourceSerifPro-Bold.otf') format('truetype');
+    }
+
+    @font-face{
+        font-family : "SourceSerifProRegular";
+        src : url('font/sourceserifpro-regular-webfont.woff') format('woff'),
+              url('font/sourceserifpro-regular-webfont.woff2') format('woff2'),
+              url('font/sourceserifpro-regular-webfont.svg') format('svg'),
+              url('font/sourceserifpro-regular-webfont.eot') format('eot'),
+              url('font/SourceSerifPro-Regular.otf') format('truetype');
+    }
+
+    @font-face{
+        font-family : "TexGyreHerosCnBold";
+        src : url('font/texgyreheroscn-bold-webfont.woff') format('woff'),
+              url('font/texgyreheroscn-bold-webfont.woff2') format('woff2'),
+              url('font/texgyreheroscn-bold-webfont.svg') format('svg'),
+              url('font/texgyreheroscn-bold-webfont.eot') format('eot'),
+              url('font/texgyreheroscn-bold.otf') format('truetype');
+    }
+
+    @font-face{
+        font-family : "TexGyreHerosCnBoldItalic";
+        src : url('font/texgyreheroscn-bolditalic-webfont.woff') format('woff'),
+              url('font/texgyreheroscn-bolditalic-webfont.woff2') format('woff2'),
+              url('font/texgyreheroscn-bolditalic-webfont.svg') format('svg'),
+              url('font/texgyreheroscn-bolditalic-webfont.eot') format('eot'),
+              url('font/texgyreheroscn-bolditalic.otf') format('truetype');
+    }
+
+    @font-face{
+        font-family : "TexGyreHerosCnItalic";
+        src : url('font/texgyreheroscn-italic-webfont.woff') format('woff'),
+              url('font/texgyreheroscn-italic-webfont.woff2') format('woff2'),
+              url('font/texgyreheroscn-italic-webfont.svg') format('svg'),
+              url('font/texgyreheroscn-italic-webfont.eot') format('eot'),
+              url('font/texgyreheroscn-italic.otf') format('truetype');
+    }
+
+    @font-face{
+        font-family : "TexGyreHerosCn";
+        src : url('font/texgyreheroscn-regular-webfont.woff') format('woff'),
+              url('font/texgyreheroscn-regular-webfont.woff2') format('woff2'),
+              url('font/texgyreheroscn-regular-webfont.svg') format('svg'),
+              url('font/texgyreheroscn-regular-webfont.eot') format('eot'),
+              url('font/texgyreheroscn-regular.otf') format('truetype');
+    }
+
+    @font-face{
+        font-family : "TexGyreHerosBold";
+        src : url('font/texgyreheros-bold-webfont.woff') format('woff'),
+              url('font/texgyreheros-bold-webfont.woff2') format('woff2'),
+              url('font/texgyreheros-bold-webfont.svg') format('svg'),
+              url('font/texgyreheros-bold-webfont.eot') format('eot'),
+              url('font/texgyreheros-bold.otf') format('truetype');
+    }
+
+    @font-face{
+        font-family : "TexGyreHerosBoldItalic";
+        src : url('font/texgyreheros-bolditalic-webfont.woff') format('woff'),
+              url('font/texgyreheros-bolditalic-webfont.woff2') format('woff2'),
+              url('font/texgyreheros-bolditalic-webfont.svg') format('svg'),
+              url('font/texgyreheros-bolditalic-webfont.eot') format('eot'),
+              url('font/texgyreheros-bolditalic.otf') format('truetype');
+    }
+
+    @font-face{
+        font-family : "TexGyreHerosItalic";
+        src : url('font/texgyreheros-italic-webfont.woff') format('woff'),
+              url('font/texgyreheros-italic-webfont.woff2') format('woff2'),
+              url('font/texgyreheros-italic-webfont.svg') format('svg'),
+              url('font/texgyreheros-italic-webfont.eot') format('eot'),
+              url('font/texgyreheros-italic.otf') format('truetype');
+    }
+
+    @font-face{
+        font-family : "TexGyreHeros";
+        src : url('font/texgyreheros-regular-webfont.woff') format('woff'),
+              url('font/texgyreheros-regular-webfont.woff2') format('woff2'),
+              url('font/texgyreheros-regular-webfont.svg') format('svg'),
+              url('font/texgyreheros-regular-webfont.eot') format('eot'),
+              url('font/texgyreheros-regular.otf') format('truetype');
+    }
